@@ -1,0 +1,265 @@
+<style type="text/css">   
+
+/*Body*/
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: amaranth;
+    padding: 10px;
+    background: #8c8c8c;
+}
+
+/* Header */
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/*Navigation Menu*/
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #000;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+/*Mobile Friendly Codes*/
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each othr */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each othr */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+      
+/*Title For Tinker Web*/
+#para1 {
+text-align: center;
+font-family: amaranth;
+font-size: 10px
+        }
+
+/*Main Section of Webpage*/
+#secondpara {
+    text-align: center
+}
+
+
+#starsign:hover{
+    background-color: #000000;
+} 
+    
+#w3-container{
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    border: 5px solid #000;
+    text-align: center;
+    text-decoration: #fff;
+    font-size: 15px;
+    color: #000
+}
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    text-align: center;
+    font-family: amaranth
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #E5AEFF;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: #FFF;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+     font-family: amaranth
+}
+
+
+
+
+
+
+
+
+/*Portfolio Section of Webpage*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+body4 {
+    background-color: #fff;
+    padding: 20px;
+    font-family: amaranth;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+    text-align: center;
+    font-family: amaranth 
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+    font-family: amaranth;
+    text-align: center
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+/*Other Sites Section*/
+#othersites {
+    text-align: center;
+    color: #fff
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact us section*/
+/* The grid: Three equal columns that floats next to each other */
+.contactusnow {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.containerTab {
+    padding: 20px;
+    color: white;
+}
+
+/* Clear floats after the columns */
+.clickme:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+</style>
+
+    
